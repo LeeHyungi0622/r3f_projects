@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# 강의 관련 자료 및 실습파일
+lecture-materials/
+Hello.tsx

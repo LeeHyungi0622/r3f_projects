@@ -1,7 +1,16 @@
 import "./App.css";
+import { Canvas } from "@react-three/fiber";
+import ThreeElement from "./ThreeElement";
 
 function App() {
-  return <>R3F basic</>;
+  return (
+    <>
+      <Canvas>
+        <ThreeElement></ThreeElement>
+      </Canvas>
+      R3F basic
+    </>
+  );
 }
 
 export default App;
